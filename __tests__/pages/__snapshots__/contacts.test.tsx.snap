@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders contacts page unchanged 1`] = `
+<div>
+  <h1>
+    Контакты
+  </h1>
+  <p>
+    theshortman@protonmail.com
+  </p>
+</div>
+`;

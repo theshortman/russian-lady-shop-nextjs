@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category page renders Price unchanged if discount is 0 1`] = `
+<div>
+  <div>
+    <span
+      class="me-1 badge bg-success"
+    >
+      100
+      RUB
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Category page renders Price unchanged if discount is 30 1`] = `
+<div>
+  <div>
+    <span
+      class="me-1 badge bg-success"
+    >
+      70
+      RUB
+    </span>
+    <div
+      class="badge bg-danger"
+    >
+      -
+      30
+      %
+    </div>
+  </div>
+</div>
+`;

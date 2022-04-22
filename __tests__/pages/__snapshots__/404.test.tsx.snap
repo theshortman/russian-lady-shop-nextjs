@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders page 404 unchanged 1`] = `
+<div>
+  <div>
+    <h1>
+      Not Found (#404)
+    </h1>
+    <p
+      class="alert alert-danger"
+    >
+      Страница не найдена.
+    </p>
+  </div>
+</div>
+`;

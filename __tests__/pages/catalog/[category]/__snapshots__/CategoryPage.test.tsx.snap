@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category page renders CategoryPage unchanged if products do not exist 1`] = `
+<div>
+  <div>
+    <h1>
+      Test category name
+    </h1>
+    <div
+      class="row"
+    >
+      <p>
+        Ничего не найдено
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Category page renders CategoryPage unchanged if products exist 1`] = `
+<div>
+  <div>
+    <h1>
+      Test category name
+    </h1>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-6 col-md-6 col-lg-4 mb-3"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-7 col-sm-8 col-md-8"
+          >
+            <a
+              href="/catalog/test-category-slug/test-product-slug"
+            >
+              <svg
+                aria-label="No photo"
+                class="img-fluid img-thumbnail"
+                focusable="false"
+                height="912"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="600"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  fill="#ffffff"
+                  height="100%"
+                  width="100%"
+                />
+                <text
+                  dy=".3em"
+                  fill="#dee2e6"
+                  text-anchor="middle"
+                  x="50%"
+                  y="50%"
+                >
+                  Loading...
+                </text>
+              </svg>
+              <img
+                alt="Test product name"
+                class="img-fluid img-thumbnail d-none"
+                data-testid="product-img"
+                src="first-image-medium"
+              />
+            </a>
+          </div>
+          <div
+            class="col-5 col-sm-4 col-md-4 ps-0"
+          >
+            <div
+              class="mb-1"
+            >
+              <div>
+                <span
+                  class="me-1 badge bg-success"
+                >
+                  900
+                  RUB
+                </span>
+                <div
+                  class="badge bg-danger"
+                >
+                  -
+                  10
+                  %
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-2"
+            >
+              <div>
+                <span
+                  class="badge bg-secondary me-1"
+                >
+                  50
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Category page renders CategoryPage unchanged if there is a next page 1`] = `
+<div>
+  <div>
+    <h1>
+      Test category name
+    </h1>
+    <div
+      class="row"
+    >
+      <p>
+        Ничего не найдено
+      </p>
+    </div>
+    <nav
+      aria-label="Page navigation"
+    >
+      <ul
+        class="pagination justify-content-center"
+      >
+        <li
+          class="page-item"
+        >
+          <a
+            aria-label="Next"
+            class="page-link"
+            href="/catalog/test-category-slug/page/2"
+          >
+            След.
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Category page renders CategoryPage unchanged if there is a prev and next page 1`] = `
+<div>
+  <div>
+    <h1>
+      Test category name
+    </h1>
+    <div
+      class="row"
+    >
+      <p>
+        Ничего не найдено
+      </p>
+    </div>
+    <nav
+      aria-label="Page navigation"
+    >
+      <ul
+        class="pagination justify-content-center"
+      >
+        <li
+          class="page-item"
+        >
+          <a
+            aria-label="Next"
+            class="page-link"
+            href="/catalog/test-category-slug/page/2"
+          >
+            След.
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Category page renders CategoryPage unchanged if there is a prev page 1`] = `
+<div>
+  <div>
+    <h1>
+      Test category name
+    </h1>
+    <div
+      class="row"
+    >
+      <p>
+        Ничего не найдено
+      </p>
+    </div>
+    <nav
+      aria-label="Page navigation"
+    >
+      <ul
+        class="pagination justify-content-center"
+      >
+        <li
+          class="page-item"
+        >
+          <a
+            aria-label="Previous"
+            class="page-link"
+            href="/catalog/test-category-slug/page/1"
+          >
+            Пред.
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

@@ -5,7 +5,7 @@
     "lint": "next lint",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test:unit": "jest --watch",
     "test:ci": "jest --ci"
   },
   "dependencies": {

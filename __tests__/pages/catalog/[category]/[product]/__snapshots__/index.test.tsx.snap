@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page renders product page unchanged 1`] = `
+<div>
+  <div>
+    <h1>
+      Test name
+    </h1>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-6 col-md-5 mb-2"
+      >
+        <div>
+          <svg
+            aria-label="No photo"
+            class="img-fluid img-thumbnail"
+            focusable="false"
+            height="912"
+            preserveAspectRatio="xMidYMid slice"
+            role="img"
+            width="600"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              fill="#ffffff"
+              height="100%"
+              width="100%"
+            />
+            <text
+              dy=".3em"
+              fill="#dee2e6"
+              text-anchor="middle"
+              x="50%"
+              y="50%"
+            >
+              Loading...
+            </text>
+          </svg>
+          <img
+            alt="Test name"
+            class="img-fluid img-thumbnail d-none"
+            data-testid="product-img"
+            src="first-image-large"
+          />
+          <img
+            alt="Test name"
+            class="img-fluid img-thumbnail mt-1 me-1 d-none"
+            data-testid="thumbnail-img"
+            src="first-image-small"
+            style="cursor: pointer;"
+          />
+          <img
+            alt="Test name"
+            class="img-fluid img-thumbnail mt-1 me-1 d-none"
+            data-testid="thumbnail-img"
+            src="second-image-small"
+            style="cursor: pointer;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-6 col-md-7"
+      >
+        <div
+          class="me-1 badge bg-secondary"
+        >
+          1000
+           RUB
+        </div>
+        <div
+          class="badge bg-danger"
+        >
+          -
+          10
+          %
+        </div>
+        <div
+          class="fs-5 fw-bold text-success"
+        >
+          900
+           RUB
+        </div>
+        <div
+          class="mb-3"
+        >
+          Вы экономите
+           
+          <span
+            class="fw-bold text-danger"
+          >
+            100
+             RUB
+          </span>
+        </div>
+        <div
+          class="mb-2"
+        >
+          <strong>
+            Размеры в наличии:
+          </strong>
+        </div>
+        <form
+          action=""
+          class="mb-3"
+          method="post"
+        >
+          <div
+            class="mb-2"
+          >
+            <label
+              class="me-2"
+            >
+              <input
+                class="me-1"
+                name="size"
+                type="radio"
+                value="1"
+              />
+              50
+            </label>
+          </div>
+          <div
+            class="form-group"
+          >
+            <button
+              class="btn btn-danger text-white"
+              disabled=""
+              type="button"
+            >
+              ДОБАВИТЬ В КОРЗИНУ
+            </button>
+          </div>
+        </form>
+        <p>
+          Test description
+        </p>
+        <div>
+          test detail
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

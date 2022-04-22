@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category page renders SizeList unchanged 1`] = `
+<div>
+  <div>
+    <span
+      class="badge bg-secondary me-1"
+    >
+      50
+    </span>
+  </div>
+</div>
+`;

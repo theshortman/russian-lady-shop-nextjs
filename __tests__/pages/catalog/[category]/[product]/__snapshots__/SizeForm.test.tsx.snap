@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page renders SizeForm unchanged 1`] = `
+<div>
+  <form
+    action=""
+    class="mb-3"
+    method="post"
+  >
+    <div
+      class="mb-2"
+    />
+    <div
+      class="form-group"
+    >
+      <button
+        class="btn btn-danger text-white"
+        disabled=""
+        type="button"
+      >
+        ДОБАВИТЬ В КОРЗИНУ
+      </button>
+    </div>
+  </form>
+</div>
+`;

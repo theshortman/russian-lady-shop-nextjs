@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page renders SizeList unchanged 1`] = `
+<div>
+  <label
+    class="me-2"
+  >
+    <input
+      class="me-1"
+      name="size"
+      type="radio"
+      value="1"
+    />
+    50
+  </label>
+</div>
+`;

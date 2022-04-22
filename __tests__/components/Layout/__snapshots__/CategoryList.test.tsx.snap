@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CategoryList unchanged 1`] = `
+<div>
+  <div
+    class="list-groupn mb-3"
+  >
+    <a
+      aria-current="page"
+      class="list-group-item list-group-item-action"
+      href="/catalog/test-slug"
+    >
+      Test category
+    </a>
+  </div>
+</div>
+`;

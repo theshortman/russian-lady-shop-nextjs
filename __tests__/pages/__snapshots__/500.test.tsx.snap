@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders page 500 unchanged 1`] = `
+<div>
+  <div>
+    <h1>
+      Internal Server Error (#500)
+    </h1>
+    <p
+      class="alert alert-danger"
+    >
+      Внутренняя ошибка сервера.
+    </p>
+    <p>
+      Пожалуйста, 
+      <a
+        href="/contacts"
+      >
+        свяжитесь с нами
+      </a>
+      .
+    </p>
+  </div>
+</div>
+`;

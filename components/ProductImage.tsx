@@ -28,6 +28,7 @@ const ProductImage: FC<ProductImageProps> = ({ src, alt }) => {
     <>
       {!isLoaded && <ImagePlaceholder text="Loading..." />}
       <img
+        data-testid="product-img"
         ref={img}
         className={`img-fluid img-thumbnail ${!isLoaded ? "d-none" : ""}`}
         onLoad={() => setIsLoaded(true)}

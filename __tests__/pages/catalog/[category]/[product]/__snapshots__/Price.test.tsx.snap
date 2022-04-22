@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page renders Price unchanged if discount is 0 1`] = `
+<div>
+  <div
+    class="fs-5 fw-bold text-success"
+  >
+    100
+     RUB
+  </div>
+</div>
+`;
+
+exports[`Product page renders Price unchanged if discount is 30 1`] = `
+<div>
+  <div
+    class="me-1 badge bg-secondary"
+  >
+    100
+     RUB
+  </div>
+  <div
+    class="badge bg-danger"
+  >
+    -
+    30
+    %
+  </div>
+  <div
+    class="fs-5 fw-bold text-success"
+  >
+    70
+     RUB
+  </div>
+  <div
+    class="mb-3"
+  >
+    Вы экономите
+     
+    <span
+      class="fw-bold text-danger"
+    >
+      30
+       RUB
+    </span>
+  </div>
+</div>
+`;

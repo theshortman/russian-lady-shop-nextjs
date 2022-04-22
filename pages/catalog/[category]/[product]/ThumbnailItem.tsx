@@ -18,6 +18,7 @@ const ThumbnailItem: FC<ThumbnailItemProps> = ({ image, alt, setImage }) => {
 
   return (
     <img
+      data-testid="thumbnail-img"
       ref={img}
       className={`img-fluid img-thumbnail mt-1 me-1 ${
         !isLoaded ? "d-none" : ""
