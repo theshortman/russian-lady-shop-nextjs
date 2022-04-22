@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import Price from "@/pages/catalog/[category]/Price";
+import Price from "@/components/pages/catalog/[category]/[product]/Price";
 
-describe("Category page", () => {
+describe("Product page", () => {
   test("renders Price unchanged if discount is 0", () => {
     const { container } = render(
       <Price price={100} newPrice={100} discount={0} />

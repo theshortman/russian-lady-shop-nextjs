@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import SizeListItem from "@/pages/catalog/[category]/[product]/SizeListItem";
+import SizeListItem from "@/components/pages/catalog/[category]/[product]/SizeListItem";
 
 describe("Product page", () => {
   test("renders SizeListItem unchanged", () => {

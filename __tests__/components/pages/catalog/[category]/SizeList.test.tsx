@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import SizeList from "@/pages/catalog/[category]/SizeList";
+import SizeList from "@/components/pages/catalog/[category]/SizeList";
 import { IProductItem } from "@/models/IProductItem";
 
 describe("Category page", () => {

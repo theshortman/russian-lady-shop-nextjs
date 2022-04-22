@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { ICategory } from "@/models/ICategory";
 import { GetServerSideProps } from "next";
-import CategoryPage from "./CategoryPage";
+import CategoryPage from "@/components/pages/catalog/[category]/CategoryPage";
 
 interface PageProps {
   category: ICategory;

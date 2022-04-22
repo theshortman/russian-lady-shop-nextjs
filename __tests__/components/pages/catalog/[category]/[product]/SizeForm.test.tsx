@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import SizeForm from "@/pages/catalog/[category]/[product]/SizeForm";
+import SizeForm from "@/components/pages/catalog/[category]/[product]/SizeForm";
 
 describe("Product page", () => {
   test("renders SizeForm unchanged", () => {

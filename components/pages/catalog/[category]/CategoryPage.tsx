@@ -8,8 +8,10 @@ interface CategoryPageProps {
   category: ICategory;
 }
 
-const generatePageUrl = (categorySlug: string, page: number): string | null =>
-  page ? `/catalog/${categorySlug}/page/${page}` : null;
+const generatePageUrl = (
+  categorySlug: string,
+  page: number | null
+): string | null => (page ? `/catalog/${categorySlug}/page/${page}` : null);
 
 const CategoryPage: NextPage<CategoryPageProps> = ({ category }) => {
   return (

@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import CategoryPage from "@/pages/catalog/[category]/CategoryPage";
+import CategoryPage from "@/components/pages/catalog/[category]/CategoryPage";
 import { ICategory } from "@/models/ICategory";
 import { IProduct } from "@/models/IProduct";
 

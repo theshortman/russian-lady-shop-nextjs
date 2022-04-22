@@ -1,5 +1,5 @@
 import { IProductImage } from "@/models/IProductImage";
-import ThumbnailItem from "@/pages/catalog/[category]/[product]/ThumbnailItem";
+import ThumbnailItem from "@/components/pages/catalog/[category]/[product]/ThumbnailItem";
 import { screen, fireEvent, render } from "@testing-library/react";
 
 describe("<ThumbnailItem />", () => {

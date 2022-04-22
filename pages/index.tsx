@@ -1,4 +1,4 @@
-import ProductItem from "./catalog/[category]/ProductItem";
+import ProductItem from "@/components/pages/catalog/[category]/ProductItem";
 import { ICategory } from "@/models/ICategory";
 import type { GetServerSideProps, NextPage } from "next";
 

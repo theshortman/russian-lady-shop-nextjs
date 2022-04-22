@@ -3,10 +3,10 @@ import { useState } from "react";
 import Head from "next/head";
 import { GetServerSideProps } from "next";
 import { IProduct } from "@/models/IProduct";
-import ThumbnailItem from "./ThumbnailItem";
+import ThumbnailItem from "@/components/pages/catalog/[category]/[product]/ThumbnailItem";
 import { IProductImage } from "@/models/IProductImage";
-import SizeForm from "./SizeForm";
-import Price from "./Price";
+import SizeForm from "@/components/pages/catalog/[category]/[product]/SizeForm";
+import Price from "@/components/pages/catalog/[category]/[product]/Price";
 import ProductImage from "@/components/ProductImage";
 
 interface PageProps {
