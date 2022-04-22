@@ -6,6 +6,6 @@ export interface ICategory {
   description: string;
   slug: string;
   products: IProduct[];
-  prev_page_number: number;
-  next_page_number: number;
+  prev_page_number: number | null;
+  next_page_number: number | null;
 }
