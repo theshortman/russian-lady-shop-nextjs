@@ -5,6 +5,7 @@
     "lint": "next lint",
     "build": "next build",
     "start": "next start",
+    "test:e2e": "nightwatch --config e2e/nightwatch.conf.js --env firefox",
     "test:unit": "jest --watch",
     "test:ci": "jest --ci"
   },
@@ -22,7 +23,9 @@
     "eslint": "8.5.0",
     "eslint-config-next": "latest",
     "eslint-plugin-testing-library": "5.0.1",
+    "geckodriver": "^3.0.1",
     "jest": "27.4.5",
+    "nightwatch": "^2.1.3",
     "typescript": "4.5.4"
   }
 }

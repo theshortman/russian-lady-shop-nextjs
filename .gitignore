@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# e2e test reports
+e2e/reports/
+
+# logs
+log*
